@@ -10,7 +10,7 @@ import 'commands/hello.dart';
 
 import 'features/hello.dart';
 
-import 'env.dart';
+import 'config.dart';
 
 import 'dart:io';
 void main(List<String> args) async {
@@ -21,9 +21,10 @@ void main(List<String> args) async {
   final client = NyxxFactory
     .createNyxxWebsocket(
 
-      env['DISCORD_API_KEY']!,
+      Config.API_KEY,
 
-      GatewayIntents.allUnprivileged
+      GatewayIntents.allUnprivileged |
+      GatewayIntents.guildMembers
     )
     ..registerPlugin(Logging())
     ..registerPlugin(IgnoreExceptions());
