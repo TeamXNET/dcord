@@ -15,6 +15,9 @@ import 'config.dart';
 import 'dart:io';
 void main(List<String> args) async {
 
+  // Ensure environment variables are set
+  Config.validateEnv();
+
   // Preload hello feature background images
   preloadHelloImages('${ Directory.current.path }\\assets\\');
 
