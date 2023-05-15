@@ -1,0 +1,19 @@
+name: dcord
+description: A simple command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.0.0
+
+# Add regular dependencies here.
+dependencies:
+  dotenv: ^4.1.0
+  http: ^0.13.6
+  image: ^4.0.17
+  nyxx: ^5.0.3
+  nyxx_interactions: ^4.6.0
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.0.0

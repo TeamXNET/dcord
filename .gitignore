@@ -1,0 +1,23 @@
+# Files and directories created by pub
+.dart_tool/
+.packages
+build/
+
+# Directory created by dartdoc
+# If you don't generate documentation locally you can remove this line.
+doc/api/
+
+# dotenv environment variables file
+.env
+
+# Generated JavaScript files
+*.dart.js
+*.info.json
+*.js
+*.js_
+*.js.deps
+*.js.map
+
+# Flutter plugin cache
+.flutter-plugins
+.flutter-plugins-dependencies
