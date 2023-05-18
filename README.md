@@ -24,4 +24,4 @@ The bot should start up and connect to Discord successfully.
 
 # License #
 
-This repository and all the code included in this repository (Unless otherwise specified) is licensed under the [MIT License](/LICENSE). Copyright (c) 2023, Team XNET & DCORD contributors.
+This repository and all the code included in this repository (Unless otherwise specified) is licensed under the [MIT License](/LICENSE). Copyright (c) 2023, XNET.
